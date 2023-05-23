@@ -95,3 +95,9 @@
 .input_bar:hover{
     border: 1px solid #1e1e1e;
 }
+
+#secondary-navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #1e3932;
+}
