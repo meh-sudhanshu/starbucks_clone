@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    padding-bottom: 200px;
+}
 #main-ctn{
     width: 100vw;
     min-height: 150vh;
@@ -11,12 +14,15 @@
 
 #navbar{
     width: 100vw;
-    height: 90px;
+    height: 70px;
     background-color:#ffffff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .left{
@@ -111,6 +117,7 @@
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+    margin-top: 70px;
 }
 
 .heading{
@@ -142,7 +149,7 @@
     margin-top: 40px;
 }
 
-#top{
+.top{
     width: 100%;
     height: 30%;
     display: flex;
@@ -150,7 +157,7 @@
     align-items: center;
     padding-left: 154px;
 }
-#bottom{
+.bottom{
     width: 100%;
     height: 70%;
     display: flex;
@@ -287,4 +294,35 @@
     color: white;
     cursor: pointer;
     border-radius: 12px;
+}
+
+#barista-recommends{
+    width: 100vw;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.br-bottom{
+    width: 100%;
+    height: 100%;
+    background-color: #ede8e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.card{
+    width: 420px;
+    height: 190px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #1e1e1e;
 }
